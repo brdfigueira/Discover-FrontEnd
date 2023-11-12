@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8"><!--O atributo charset é uma meta configuração que define quais os conjuntos de caracteres que 
+        iremos usar desta forma, o *charset ="UTF-8" permite com que a pagina aceite caracteres especiais com til, c cedilha e outros.-->
+            
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--Faz a compatibilidade com navegadores um pouco mais antigos-->
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Projeto Fullstacker Discover</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body> 
+
+        <div id="container">
+            <div id="profile">
+                <img src="./assets/avatar.png" alt="Foto de Breno Figueira no elevador, usando jaqueta, oculos e mascara.">
+                <p>@figueira.breno</p>
+            </div>
+
+            <div id="switch" onclick="togglemode()">
+                <button>
+                </button>
+                <span>
+                </span>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="https://br.linkedin.com/in/breno-figueira"
+                        target="_blank"
+                    >Meu LinkedIn</a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100075093326566"
+                        target="_blank"
+                    >Facebook</a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/brdfigueira"
+                    target="_blank"
+                    >Meu portifólio</a>
+                </li>
+
+                <li>
+                    <a href="https://www.rocketseat.com.br/discover"
+                        target="_blank"
+                    >Conheça o Discover</a>
+                </li>
+
+            </ul>
+
+            <div id="social-links">
+                <a href="https://github.com/brdfigueira" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/figueira.breno/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://youtube.com.br" target="_blank">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="https://br.linkedin.com/in/breno-figueira" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div> 
+            <footer>
+                Ensinado com ♥ pela <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>     
+            </footer> 
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
